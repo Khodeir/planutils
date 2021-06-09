@@ -1,4 +1,4 @@
 #!/bin/bash
 
 ## Fetch the image
-singularity pull --name decstar.sif library://khodeir/default/decstar
+singularity pull --name decstar.sif library://khodeir/default/decstar:sha256.66d9dda1a075a011537d6e8dcac7589e8e9c73989a298b1fa0519ac4e7c7e796
