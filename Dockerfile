@@ -53,8 +53,10 @@ RUN pip3 install --upgrade pip
 RUN pip3 install setuptools
 
 # Install & setup the planutils
-RUN pip3 install planutils --trusted-host pypi.org --trusted-host files.pythonhosted.org
+COPY . /planutils
+RUN pip3 install /planutils
 RUN planutils setup
+RUN planutils install -f decstar
 RUN planutils install -f cerberus
 RUN planutils install -f delfi
 
