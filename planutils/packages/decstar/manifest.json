@@ -1,0 +1,6 @@
+{
+    "name": "DecStar: STAR-topology DECoupled Search Planner",
+    "description": "https://planning.wiki/_citedpapers/planners/decstar.pdf#page=1",
+    "install-size": "197.04MiB",
+    "dependencies": []
+}

@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Recipe for singularity images
+rm decstar.sif
